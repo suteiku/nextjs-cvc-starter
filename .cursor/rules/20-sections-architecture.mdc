@@ -1,0 +1,6 @@
+# Sections architecture
+- Pages in app/**/page.tsx only assemble sections (no huge markup).
+- Sections live in components/sections/*.tsx
+- Layout primitives live in components/layout/* (Container, Section)
+- Copy/content lives in content/* and is passed as props
+- Keep spacing rhythm consistent via <Section> and <Container>

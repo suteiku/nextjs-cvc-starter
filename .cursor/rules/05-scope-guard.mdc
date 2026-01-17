@@ -1,0 +1,20 @@
+# SCOPE GUARD (must)
+Source of truth: docs/ai/SCOPE_OF_WORK.md
+
+Rules:
+1) Implement ONLY what is explicitly IN SCOPE.
+2) Do NOT propose or implement out-of-scope items unless the user explicitly asks.
+3) If requested out-of-scope:
+   - Do NOT implement it
+   - Append a line to docs/ai/OUT_OF_SCOPE.md
+   - Continue with in-scope work only
+
+Design/Branding:
+- Do NOT create/modify: logo, business card, truck branding, brand identity.
+- If requested: mark as out-of-scope (handled in Figma).
+
+Google Business Profile:
+- Do NOT propose or implement GBP work unless included in scope.
+
+Focus:
+- Site code, on-site SEO, legal pages, forms, performance, UX, accessibility.

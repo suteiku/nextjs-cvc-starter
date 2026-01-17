@@ -1,0 +1,22 @@
+# STACK CORE (mandatory)
+Always follow this workflow for any request.
+
+Pipeline:
+1) ROUTER: classify the request (new page/section, restyle, bugfix, seo, legal, refactor).
+2) LOAD CONTEXT:
+   - docs/ai/SCOPE_OF_WORK.md
+   - docs/ai/PROJECT_BRIEF.md
+   - docs/ai/ARCHITECTURE.md
+   - docs/ai/DESIGN_CONTRACT.md
+   - docs/ai/DONE_DEFINITION.md
+3) PLAN (max 6 steps) + list files to change
+4) BUILD (minimal, consistent)
+5) QA (responsive, a11y basics, Next.js correctness)
+6) FIX LOOP once if needed
+
+Output format:
+- Objective
+- Plan
+- Changed files
+- Patches per file
+- How to test

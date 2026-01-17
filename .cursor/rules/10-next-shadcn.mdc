@@ -1,0 +1,6 @@
+# Next.js + shadcn/ui rules
+- Next.js App Router (no src/ by default)
+- Prefer Server Components; use "use client" only when needed
+- Use shadcn/ui primitives consistently
+- Tailwind only; use cn() from @/lib/utils
+- Keep code clean and reusable; follow existing patterns
